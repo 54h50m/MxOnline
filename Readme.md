@@ -1,3 +1,4 @@
 这个文件记录错误
 1、创建虚拟环境mkvirtualenv时，要在setting中配置好django的 Project Interpreter，否则会报错
 2、pycharm3.X不支持mysqldb驱动和mysqlclient，只支持pymysql
+3、在virtualenvs虚拟环境中安装pillow等一定要使用workon命令来切换虚拟环境，不然会错安装到默认环境中
